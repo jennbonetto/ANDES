@@ -677,10 +677,13 @@ footer {
 
 .container-iconov {
     width: 100%;
+    height: auto;   /* Mantiene la relación de aspecto */
+       
     display: flex;
     justify-content: flex-end;
-    padding: 30px;
+    padding: 50px;
     background-color: #d7d4d4;
+    
     margin-bottom: 30px;
     color: #333;
 }
@@ -766,4 +769,18 @@ footer {
     width: 300px;
     height: auto;
     clip-path: polygon(100 , 100% 0, 100% 75%, 0 75%);
+  }
+
+  .mapa{
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 25%;
+    margin: 10px auto;
+   
+  }
+
+  .sectiontiendas{
+    margin-top: 150px;
   }
